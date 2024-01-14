@@ -108,6 +108,60 @@ main{
     color: #727272;
     font-weight: 400;
 }
+
+/* feature section styles */
+
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.features .section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.section-text{
+    color: #727272;
+    font-weight: 400;;
+}
+.section-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.features-content .card{
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.card h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.ten-year{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 260px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    right: 60px;
+    bottom: 82px;
+}
+.ten-year h2{
+    font-size: 65px;
+    font-weight: 700;
+    margin: 0; 
+}
+.ten-year p{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0;
+}
+
 /* responsive styles */
 
 /* mobile devices */
@@ -117,9 +171,18 @@ main{
         padding: 20px;
     }
     nav,
-    .teams-container
+    .teams-container,
+    .features
     {
         flex-direction: column;
+    }
+    .features-img img{
+        width: 100%;
+    }
+    .ten-year{
+        position: relative;
+        left: 30px;
+        max-width: 260px;
     }
     .teams-img-container{
         grid-template-columns: 1fr;
@@ -137,8 +200,14 @@ main{
         padding: 50px;
     }
     nav,
-    .teams-container
+    .teams-container,
+    .features
     {
         flex-direction: column;
+    }
+    .ten-year{
+        position: relative;
+        left: 480px;
+        max-width: 260px;
     }
 }
