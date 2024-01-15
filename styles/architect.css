@@ -221,6 +221,18 @@ main{
 .sponsors-img-container img{
     width: 165px;
 }
+/* footer section */
+.copyright{
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.copyright p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 40px;
+}
 /* responsive styles */
 
 /* mobile devices */
